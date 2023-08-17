@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    flex-direction: column; 
+    border: solid black 1px;
+    /* height: fit-content;
+    width: fit-content; */
+    height:100%;
+    width:100%;
+
+}
+
+
+.box--date {
+    text-align: center;
+}
+
+.box--image {
+    max-width: 100%;
+    padding: 10px 0px;
+
+}
+
+.box--temps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
